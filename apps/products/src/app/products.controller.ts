@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
 @ProductsServiceControllerMethods()
 export class ProductsController implements ProductsServiceController {
     getProduct(request: ProductRequest): Promise<ProductResponse> | Observable<ProductResponse> | ProductResponse {
+        console.log(request)
         return {
             productId: 1,
             name: "Product 1",
