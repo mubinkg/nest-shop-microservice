@@ -1,5 +1,5 @@
 import { Controller } from '@nestjs/common';
-import { ProductRequest, ProductResponse, ProductsServiceController, ProductsServiceControllerMethods } from '../../../../types/proto/products';
+import { ProductRequest, ProductResponse, ProductsServiceController, ProductsServiceControllerMethods } from 'types/proto/products';
 import { Observable } from 'rxjs';
 
 @Controller('product')
